@@ -6,7 +6,7 @@ import glob
 
 
 for file in glob.glob("*.txt"):   #locate files of txt format
-    if file == "A1.txt" : 
+    if file == "A.txt" : 
         with open(file) as f:
             for line in f:
                 i,j,v_A=line.split(' ') #split by space
@@ -14,7 +14,7 @@ for file in glob.glob("*.txt"):   #locate files of txt format
                 i,j=map(int,[i,j])
                 print('%s\t%s' % ([j,"A"],[i,v_A])) #output of mapper if the line is from A.txt
                 # Here [j,"A"] will be a key in next reducer phase.
-    elif file == "B1.txt":
+    elif file == "B.txt":
         with open(file) as f:
             for line in f:
                 i,j,v_B=line.split(' ')
