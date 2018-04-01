@@ -8,15 +8,10 @@ Our code includes:
 
 Algo 1 folder, containing: 
 
--generator (generator.py) to generate the matrices under the folder test.txt
--MapReduce (mapper.py + reducer.py) 
--Spark code (spark1.py)
+generator (generator.py) to generate the matrices under the folder test.txt; MapReduce (mapper.py + reducer.py); Spark code (spark1.py)
 
 Algo 2 folder, containing:
 
--generator (generator_algo2.py) generating 2 matrices A.txt and B.txt
--mapper and 2 reducers to run in MapReduce (mapper1_algo2.py; reducer1_algo2.py; reducer2_algo2.py)
--mapper to scale on bigger matrices, taking the example of a 50 x 50 matrice (mapper1_algo2_50x50.py)
--Spark code (Spark_algo2.py)
+generator (generator_algo2.py) generating 2 matrices A.txt and B.txt; mapper and 2 reducers to run in MapReduce (mapper1_algo2.py; reducer1_algo2.py; reducer2_algo2.py); mapper to scale on bigger matrices, taking the example of a 50 x 50 matrice (mapper1_algo2_50x50.py); Spark code (Spark_algo2.py)
 
 
